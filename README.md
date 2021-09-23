@@ -10,3 +10,6 @@ Explicando un poco el codigo es bastante simple pues me costo bastante trabajar 
 La consuta es una tabla con los 100 primeros datos del cvs (lo hize asi porque al tratar de leer todo mi computadora empezaba a fallar".
 Del lado del front-end me tarde mas o menos debido a ser un proyecto anterior que inicie este no tenia nada de back-end.
 **En este no pude realizar la graficacion de una grafica para mostrar la cantidad de datos que habian sido echos en un años, esto paso por que no logre realizar la funcion devolviera los datos de un array**.
+
+
+Nota final cree de nuevo el repositorio por que una carpeta la vicule antes a otro proyecto en git.
