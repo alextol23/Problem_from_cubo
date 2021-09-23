@@ -1,0 +1,80 @@
+@import "./../../../../styles/variables.scss";
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    overflow-x: auto;
+    display: block;
+    &__head {
+        border-radius: $borderRadius;
+
+        &.light__mode {
+            background: $lightGray;
+        }
+        &.dark__mode {
+            background: $lightBlack2;
+        }
+    }
+
+    thead {
+        width: 100%;
+        display: flex;
+    } 
+
+    thead tr {
+        width: auto;
+        display: flex;
+        text-align: left;
+    }
+
+    tbody {
+        width: auto;
+        display: block;
+        overflow: auto;
+        height: 280px;
+    }
+
+    tbody tr {
+        width: 100%;
+        display: flex;
+        text-align: left;
+    }
+
+    th,
+    td {
+        width: 100%;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: $letterSpacing;
+        line-height: 16px;
+        padding: 16px 24px;
+    }
+
+    th:last-child {
+        margin-right: 15px;
+    }
+
+    td {
+        font-weight: 400;
+        white-space: nowrap;
+    }
+}
+
+.table.light__mode {
+    th,
+    td {
+        color: $black;
+    }
+    td {
+        border-bottom: 1px solid $dividerLineLight;
+    }
+}
+.table.dark__mode {
+    th,
+    td {
+        color: $white;
+    }
+    td {
+        border-bottom: 1px solid $dividerLine;
+    }
+}
